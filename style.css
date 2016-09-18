@@ -37,3 +37,11 @@
 .button-section {
   margin: 0 auto;
 }
+
+.message div {
+  text-align: center;
+  font-size: 20px;
+}
+.message {
+  margin-top: 100px;
+}
