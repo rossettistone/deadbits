@@ -17,7 +17,7 @@ function setUpVerification () {
     })
     if (verifies) {
       alert("Marvelous! It's you!")
-      window.location = '/padlock.html'
+      window.location = 'padlock.html'
     } else {
       alert('Are you sure about those answers? Something seems wrong...')
     }
@@ -41,7 +41,7 @@ function setUpUnlock () {
 
     if (shouldUnlock) {
       alert("Nicely done! Your message awaits.")
-      window.location = '/message.html'
+      window.location = 'message.html'
     } else {
       alert('Nope.')
     }
